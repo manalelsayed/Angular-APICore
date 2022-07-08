@@ -54,15 +54,15 @@ modalAdd(){
 }
 
 modalEdit(person:any){
-//this.person=person;
-this.person={
+this.person=person;
+/*this.person={
   id: person.id,
   firstName: person.firstName,
   lastName: person.lastName,
   age: person.age,
   address: 
     {
-      id: person.address.id,
+      id: person.id,
       street: person.street,
       city: person.city,
       postalCode: person.postalCode,
@@ -70,7 +70,7 @@ this.person={
       personId: person.id
     }
   
-}
+}*/
 this.Modaltitle="Edit Person";
 this.activateAddEditPersonComponent=true;
 
